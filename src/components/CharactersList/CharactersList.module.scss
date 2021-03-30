@@ -1,0 +1,49 @@
+.list_container {
+  width: 100%;
+  height: 100%;
+  padding: 14rem 2rem 2rem;
+  background-color: #403c3c;
+
+  .list {
+    max-width: 60rem;
+    margin: auto;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+}
+
+.filters_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  border-bottom: 2px solid #9e4f60;
+  background-color: #403c3c;
+  z-index: 1;
+
+  .filters_content {
+    max-width: 60rem;
+    margin: auto;
+
+    input {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: .6rem;
+      background-color: #555;
+      color: #fff;
+    }
+
+    button {
+      padding: 1rem;
+      border-radius: .6rem;
+      background-color: #9e4f60;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
